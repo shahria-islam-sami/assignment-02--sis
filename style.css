@@ -1,0 +1,23 @@
+body {
+    background-color: #f6f8fb;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.logo img {
+width: 120px;
+height: auto;
+display: block;
+}
+.menu-bar a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+.menu a .active {
+    color: #000;
+    font-weight: bold;
