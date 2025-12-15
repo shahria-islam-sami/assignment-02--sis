@@ -7,6 +7,10 @@ body {
     align-items: center;
     padding: 20px 80px;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
 .logo img {
 width: 120px;
 height: auto;
@@ -14,10 +18,17 @@ display: block;
 }
 .menu-bar a{
     justify-content: space-between;
+    
+    align-items: center;
     text-decoration: none;
-    color: #777;
-    font-size: 14px;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 20px;
 }
-.menu a .active {
-    color: #000;
+.menu a , .active {
+    color: #333;
     font-weight: bold;
+}
+.nav-bar a:hover {
+  color: #f26a2e;
+}
