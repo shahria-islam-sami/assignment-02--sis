@@ -103,7 +103,7 @@ font-weight: bold;
 font-size: 22px;
 margin-bottom: 10px;
 }
-.plant-card button, a{
+.plant-card button {
     width: 100%;
     align-items: center;
     background: #ff6a00;
@@ -112,7 +112,12 @@ margin-bottom: 10px;
     padding: 10px 10px;
     font-size: 16px;
     cursor: pointer;
+    
+}
+.plant-card button a{
     text-decoration: none;
+    color: white;
+
 }
 .plant-card  a:hover {
   color: #000000;
