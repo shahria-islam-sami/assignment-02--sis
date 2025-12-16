@@ -7,16 +7,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
+    padding: 10px 20px;
+    max-width: 1100px;
+    margin: 60px auto;
 }
 .logo{
     display: flex;
     align-items: center;
 }
 .logo img {
-width: 120px;
-height: auto;
-display: block;
+    width: 120px;
+    height: auto;
+    display: block;
 }
 .menu-bar a{
     justify-content: space-between;
@@ -39,7 +41,7 @@ display: block;
 .hero-section{
     display: flex;
     align-items: center;
-    margin: 80px auto;
+    margin: 60px auto;
     max-width: 1100px;
 
 }
@@ -51,20 +53,20 @@ display: block;
 
 }
 .hero-container .black {
-color: #000;
+    color: #000;
 }
 .hero-container .orange {
-color: #ff6a00;
+    color: #ff6a00;
 }
 .hero-image {
-width: 50%;
-text-align: right;
+    width: 50%;
+    text-align: right;
 }
 
 .plant-container{
-max-width: 1100px;
-margin: 80px auto;
-text-align: center;
+    max-width: 1100px;
+    margin: 60px auto;
+    text-align: center;
 }
 
 .plant-container h1 {
@@ -72,13 +74,13 @@ text-align: center;
     font-size: 50px;
 }
 .plant-container h1 span{
-color: #E95A08;
+    color: #E95A08;
 
 }
 .plant-description {
-color: #777;
-font-size: 14px;
-margin-bottom: 40px;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 40px;
 }
 .plant-card-grid{
     display: grid;
@@ -86,22 +88,22 @@ margin-bottom: 40px;
     gap: 20px;
 }
 .plant-card{
-background: #fff;
-padding: 20px;
-border: 1px solid black
+    background: #fff;
+    padding: 20px;
+
 }
 
 .plant-card img {
-width: 100%;
+    width: 100%;
 }
 .plant-card h3 {
-margin: 10px 0 5px;
-font-size: 22px;
+    margin: 10px 0 5px;
+    font-size: 22px;
 }
 .plant-card, .price {
-font-weight: bold;
-font-size: 22px;
-margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 .plant-card button {
     width: 100%;
@@ -117,10 +119,41 @@ margin-bottom: 10px;
 .plant-card button a{
     text-decoration: none;
     color: white;
+    
 
 }
-.plant-card  a:hover {
-  color: #000000;
+.plant-card  button:hover {
+  background-color: #e85d00;
+}
+.plant-lover-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 60px auto;
+}
+.lover-img{
+    width: 70%;
+    position: relative;
+
+}
+.lover-img img{
+    display: block;
+    width: 100%;
+}
+.lover-content{
+    width: 60%;
+}
+.lover-content h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.lover-content ul{
+    list-style: disc;
+    font-size: 18px;
+    padding-left: 20px;
+    color: #777;
+    line-height: 1.7;
 }
 
 
