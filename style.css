@@ -228,4 +228,46 @@ body {
     margin-bottom: 0%;   
     font-weight: bold; 
 }
+.newsletter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 20px;
+    
 
+}
+.newsletter-content h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.newsletter-form{
+    display: flex;
+    text-align: left;
+    width: 800px;
+    background-color: white;
+    border: 5px;
+    padding: 0px;
+    
+}
+.newsletter-form input{
+    flex-grow: 1;
+    border: none;
+    padding: 15px 40px;
+    outline: none;
+    font-size: 16px;
+}
+.newsletter-form button{
+    background-color: #E95A08;
+    border: none;
+    color: white;
+    padding: 0px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px ;
+
+}
