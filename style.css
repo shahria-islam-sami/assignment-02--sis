@@ -1,7 +1,9 @@
-
+* { 
+    font-family: Arial, Helvetica, sans-serif
+}
 body {
     background-color: #f6f8fb;
-
+    margin: 60px auto;
 }
 .nav-bar{
     display: flex;
@@ -57,6 +59,9 @@ body {
 }
 .hero-container .orange {
     color: #ff6a00;
+}
+.hero-container{
+    color: #777;
 }
 .hero-image {
     width: 50%;
@@ -320,4 +325,105 @@ body {
     font-weight: bold;
     border-radius: 50%;
     padding-top: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .hero-section {
+        flex-direction: column-reverse;
+        text-align: left;
+        padding: 0 20px;
+        text-align: left;
+    }
+    
+    .hero-image {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+       
+        text-align: left;
+    }
+    .hero-image img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+    .hero-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .hero-container h1 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+    .hero-container p{
+        font-size: 12px;
+        color: #777;
+    }
+    .plant-container{
+        text-align: center;
+        margin: 20px;
+        padding: 0 ;
+    }
+    .plant-card-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0 20px;
+        
+    }
+    .plant-container h1 {
+        font-size: 20px;
+    }
+
+    .plant-card h3 {
+        font-size: 16px;
+    }
+
+    .plant-lover-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .trusted-badge 
+   { 
+    display: none; 
+}
+    .plant-lover-container {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 25px;
+    margin-right: 25px ;
+  }
+
+  .lover-img {
+    width: 100%;
+  }
+
+  .lover-img img {
+    width: 100%;
+    height: 100%;        
+    object-fit: cover;   
+    background: #fff;
+  }
+
+  .lover-content {
+    width: 100%;
+    padding: 0px 10px;
+    margin-top: 0;
+  }
+
+  .lover-content h2 {
+    font-size: 26px;
+  }
+
+  .lover-content ul {
+    font-size: 15px;
+    line-height: 1.6;
+    padding-left: 18px;
+    align-items: center;
+  }
+
 }
